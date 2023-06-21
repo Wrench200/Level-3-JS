@@ -1,3 +1,4 @@
+//Write a function that returns the sum of numbers. So for a number like 237, it should return 12 which is the result of  2+3+7.
 function sumOfNum(Number) {
     let array = [];
     let num2 = Number.toString();
@@ -14,4 +15,4 @@ function sumOfNum(Number) {
     
 }
 
-// use mod 10 get the remainder and 
+// use mod 10 method

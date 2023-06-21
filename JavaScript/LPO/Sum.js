@@ -1,3 +1,4 @@
+//Write three functions that compute the sum of the numbers in a list: using a for-loop, a while-loop, and a do-while loop.
 // sum with the for loop
 function sum1(array) {
     let num = 0
