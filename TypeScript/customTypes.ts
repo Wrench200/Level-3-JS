@@ -42,6 +42,6 @@ enum CURRENCIES {
     EUR = "EUR"
 }
 let money: CURRENCIES = CURRENCIES.USD;
-let gender: GENDER = GENDER.MALE;
+let gender: GENDER = GENDER.male;
 
 //Class => Introduces us to OOP(object oriented programming)
