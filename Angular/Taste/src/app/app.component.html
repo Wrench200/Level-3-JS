@@ -1,0 +1,24 @@
+<h1 class="title">{{ name }}
+  <span>Age Pay {{ age * price > 1000 ? "wow": "hmm"}} </span>
+  <span>the creators are {{ creator}}</span>
+  <p>Greetings {{sayHi()}}</p>
+
+</h1>
+<div>
+  <p class="showcase">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas natus veniam minima nemo impedit magni aut neque
+    deleniti. Iure iste nam architecto quis excepturi dolores praesentium corporis sapiente asperiores odio!
+  </p>
+  <p class="showcase">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas natus veniam minima nemo impedit magni aut neque
+    deleniti. Iure iste nam architecto quis excepturi dolores praesentium corporis sapiente asperiores odio!
+  <p class="showcase">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas natus veniam minima nemo impedit
+    magni aut neque deleniti. Iure iste nam architecto quis excepturi dolores praesentium corporis sapiente asperiores
+    odio!</p>
+  </div>
+  
+  <div>
+    <input [(ngModel)]="username" name="username" type="text" placeholder="Enter Name">
+    <p>You entered your name as {{ username }}</p>
+    
+</div>
