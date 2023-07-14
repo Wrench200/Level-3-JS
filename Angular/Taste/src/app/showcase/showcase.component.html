@@ -1,0 +1,10 @@
+<h1>Showcase info sectio</h1>
+<section>
+    <div class="input-container">
+        <input [(ngModel)]=favColor type="text" placeholder="Enter your favourite color">
+    </div>
+    <div class="preview-container" [style]="favColor.length > 1 ? 'background-color:'+favColor:''">
+
+    </div>
+</section>
+<app-showcase-lis></app-showcase-lis>

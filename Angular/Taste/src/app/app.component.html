@@ -1,4 +1,4 @@
-<h1 class="title">{{ name }}
+<!-- <h1 class="title">{{ name }}
   <span>Age Pay {{ age * price > 1000 ? "wow": "hmm"}} </span>
   <span>the creators are {{ creator}}</span>
   <p>Greetings {{sayHi()}}</p>
@@ -16,9 +16,44 @@
     magni aut neque deleniti. Iure iste nam architecto quis excepturi dolores praesentium corporis sapiente asperiores
     odio!</p>
   </div>
-  
-  <div>
+-->
+  <!-- <div>
     <input [(ngModel)]="username" name="username" type="text" placeholder="Enter Name">
     <p>You entered your name as {{ username }}</p>
     
-</div>
+</div>  -->
+
+<body>
+  <div class="input-box">
+    <input [(ngModel)]="name" name="name" type="text" class="form-control" placeholder="Enter name">
+    <input [(ngModel)]="job" name="job" type="text" class="form-control" placeholder="Enter your job">
+    <input [(ngModel)]="address" name="address" type="text" class="form-control" placeholder="Enter your address">
+    <input [(ngModel)]="phone" name="phone" type="text" class="form-control" placeholder="Enter your phone number">
+    <input [(ngModel)]="email" name="email" type="email" class="form-control" placeholder="Enter your email">
+    <input [(ngModel)]="hobbies" name="hobbes" type="text" class="form-control" placeholder="Do you have any hobbies ?">
+    <input [(ngModel)]="experience" name="experience" type="text" class="form-control" placeholder="Enter any past experience">
+    
+    
+  
+  </div>
+  <div class="output-box">
+    <span class="label">Name</span>
+    <span>{{ name }}</span>
+    <span class="label">Job</span>
+    <span >{{ job }}</span>
+    <span class="label">Address</span>
+    <span> {{ address }}</span>
+    <span class="label"> Phone</span>
+    <span>{{phone}}</span>
+    <span class="label">Email</span>
+    <span> {{ email }}</span>
+    <span class="label">Hobbies</span>
+    <span>{{hobbies}}</span>
+    <span class="label">Past Experience</span>
+    <span>{{experience}}</span>
+  
+  </div>
+  
+</body>
+<app-home></app-home>
+<app-showcase></app-showcase>

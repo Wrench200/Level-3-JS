@@ -1,0 +1,14 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    .preview-container {
+        height: 40vh;
+        width: 50%;
+        background-color: black;
+        color: white;
+
+    }
+}
